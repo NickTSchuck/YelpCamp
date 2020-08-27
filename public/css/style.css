@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.profile-header-img {
+    padding: 0px 5px;
+}
+
+.profile-header-img > img.img-circle {
+    width: 32px;
+    height: 32px;
+}
+
+img:hover {
+    filter: blur(8px); 
+    -webkit-filter: blur(8px);
+}
+
+.parent {
+    background-image: url("/images/BeachTentFire.jpg"); 
+    background-size: cover;
+    background-repeat: none;
+    content: "a";
+}
+
+.titlebar {
+    height: 62px;
+    margin-bottom: 0px;
+}
+
+.titlebar-item {
+    vertical-align: 6px; 
+}
+  
